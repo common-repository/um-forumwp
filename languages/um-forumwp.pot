@@ -1,0 +1,189 @@
+# Copyright (C) 2024 Ultimate Member
+# This file is distributed under the same license as the Ultimate Member - ForumWP plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - ForumWP 2.1.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/um-forumwp\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-29T10:37:34+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: um-forumwp\n"
+
+#. Plugin Name of the plugin
+#: um-forumwp.php
+msgid "Ultimate Member - ForumWP"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: um-forumwp.php
+msgid "https://ultimatemember.com/extensions/forumwp/"
+msgstr ""
+
+#. Description of the plugin
+#: um-forumwp.php
+msgid "Integrates Ultimate Member with ForumWP"
+msgstr ""
+
+#. Author of the plugin
+#: um-forumwp.php
+msgid "Ultimate Member"
+msgstr ""
+
+#. Author URI of the plugin
+#: um-forumwp.php
+msgid "http://ultimatemember.com/"
+msgstr ""
+
+#: includes/admin/templates/access/forumwp.php:16
+msgid "Which roles can create new topics in this forum"
+msgstr ""
+
+#: includes/admin/templates/access/forumwp.php:25
+msgid "Which roles can create new replies in this forum"
+msgstr ""
+
+#: includes/admin/templates/role/forumwp.php:14
+msgid "Disable forums tab?"
+msgstr ""
+
+#: includes/admin/templates/role/forumwp.php:15
+msgid "If you turn this off, this role will not have a forums tab active in their profile."
+msgstr ""
+
+#: includes/admin/templates/role/forumwp.php:21
+msgid "Disable create new topics?"
+msgstr ""
+
+#: includes/admin/templates/role/forumwp.php:22
+msgid "Generally, decide If this role can create new topics in the forums or not."
+msgstr ""
+
+#: includes/admin/templates/role/forumwp.php:28
+msgid "Custom message to show if you force locking new topic"
+msgstr ""
+
+#: includes/admin/templates/role/forumwp.php:35
+msgid "Disable create new replies?"
+msgstr ""
+
+#: includes/admin/templates/role/forumwp.php:36
+msgid "Generally, decide If this role can create new replies in the forums or not."
+msgstr ""
+
+#: includes/admin/templates/role/forumwp.php:42
+msgid "Custom message to show if you force locking new reply"
+msgstr ""
+
+#: includes/core/class-forumwp-admin.php:42
+msgid "Require profile to be complete to create new ForumWP topics/replies?"
+msgstr ""
+
+#: includes/core/class-forumwp-admin.php:43
+msgid "Prevent user from adding participating in forum If their profile completion is below the completion threshold set up above?"
+msgstr ""
+
+#: includes/core/class-forumwp-admin.php:47
+msgid "No"
+msgstr ""
+
+#: includes/core/class-forumwp-admin.php:48
+msgid "Yes"
+msgstr ""
+
+#: includes/core/class-forumwp-admin.php:66
+msgid "ForumWP"
+msgstr ""
+
+#: includes/core/class-forumwp-admin.php:102
+msgid "UM Permissions"
+msgstr ""
+
+#: includes/core/class-forumwp-profile.php:92
+#: includes/core/class-forumwp-profile.php:186
+msgid "Forums"
+msgstr ""
+
+#: includes/core/class-forumwp-profile.php:120
+#: includes/core/class-forumwp-profile.php:187
+#: includes/core/class-forumwp-profile.php:215
+#: includes/core/class-forumwp-profile.php:244
+msgid "Topics"
+msgstr ""
+
+#: includes/core/class-forumwp-profile.php:121
+#: includes/core/class-forumwp-profile.php:216
+#: includes/core/class-forumwp-profile.php:245
+msgid "Replies"
+msgstr ""
+
+#: includes/core/class-forumwp-profile.php:126
+msgid "Likes"
+msgstr ""
+
+#: includes/core/class-forumwp-profile.php:129
+msgid "Bookmarks"
+msgstr ""
+
+#: includes/core/class-forumwp-profile.php:132
+msgid "Subscriptions"
+msgstr ""
+
+#: includes/core/class-forumwp-setup.php:33
+msgid "<strong>{member}</strong> just mentioned you <a href=\"{post_url}\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: includes/core/class-forumwp-setup.php:34
+msgid "<strong>{member}</strong> has <strong><a href=\"{post_url}\" target=\"_blank\">replied</a></strong> to a topic or forum on which you are subscribed."
+msgstr ""
+
+#: includes/core/class-forumwp-setup.php:35
+msgid "<strong>{member}</strong> has <strong>created a new <a href=\"{post_url}\" target=\"_blank\">topic</a></strong> in a forum on which you are subscribed."
+msgstr ""
+
+#: includes/core/class-integrations.php:470
+msgid "New forum topic"
+msgstr ""
+
+#: includes/core/class-integrations.php:471
+msgid "New topic reply"
+msgstr ""
+
+#: includes/core/class-integrations.php:484
+msgid "User mention you in forum"
+msgstr ""
+
+#: includes/core/class-integrations.php:485
+msgid "When a member posts a topic or reply and mention you"
+msgstr ""
+
+#: includes/core/class-integrations.php:491
+msgid "User leaves a reply to topic"
+msgstr ""
+
+#: includes/core/class-integrations.php:492
+msgid "When a member replies to one of forums or topics to which I'm subscribed"
+msgstr ""
+
+#: includes/core/class-integrations.php:497
+msgid "User creates a topic in forum"
+msgstr ""
+
+#: includes/core/class-integrations.php:498
+msgid "When a member creates a topic in one of forums to which I'm subscribed"
+msgstr ""
+
+#. translators: %s is the ForumWP extension name.
+#: um-forumwp.php:53
+#: um-forumwp.php:70
+msgid "The <strong>%s</strong> extension requires the Ultimate Member plugin to be activated to work properly. You can download it <a href=\"https://wordpress.org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#. translators: %s is the ForumWP extension name.
+#: um-forumwp.php:87
+msgid "Sorry. You must activate the <strong>ForumWP</strong> plugin to use the %s."
+msgstr ""
